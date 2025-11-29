@@ -3,16 +3,20 @@ import styled from 'styled-components';
 export const PokemonName = styled.h1`
   font-size: 32px;
 
-  @media (max-width: 670px) {
-    font-size: 24px;
+  @media (max-width: 450px) {
+    font-size: 20px;
   }
 `;
 
 export const PokemonImage = styled.img`
   width: 360px;
 
-   @media (max-width: 600px) {
-    width: 200px;
+   @media (max-width: 450px) {
+    width: 150px;
+  }
+  
+   @media (min-width: 451px) and (max-width: 600px) {
+    width: 250px;
   }
 `;
 
@@ -35,8 +39,16 @@ export const CardExtendedContainer = styled.div`
   padding: 20px;
   max-width: 500px;
 
-  @media (max-width: 670px) {
-    max-width: 70%;
+  @media (max-width: 450px) {
+    max-width: 60%;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  @media (min-width: 451px) and (max-width: 600px) {
+    max-width: 80%;
+    padding: 20px;
+    gap: 15px;
   }
 `;
 
@@ -73,10 +85,17 @@ export const PokemonContainerInfo = styled.div`
     border: 2px solid ${({ theme }) => theme.infoBackground}; /* espaçamento */
   }
 
-  @media (max-width: 670px) {
-    max-height: 100px;
-    font-size: 14px;
+  @media (max-width: 450px) {
+    max-height: 120px;
+    font-size: 0.8rem;
     padding: 10px;
+    text-align: left;
+  }
+  
+  @media (min-width: 451px) and (max-width: 600px) {
+    max-height: 150px;
+    font-size: 1rem;
+    padding: 15px;
     text-align: left;
   }
 `;
