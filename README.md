@@ -24,7 +24,7 @@ Inicialmente temos apenas 10 "cards" com 10 pokémons, porém, ao clicar no bot�
 
 ### Card Pokémon Ampliado Desktop
 
-No card ampliado do pokémon, temps suas informações detalhadas (nome, imagem, altura, peso, tipo e movimentos aprendidos). Além desses, temos também a lista de habilidades possíveis que esse pokémon pode ter, bem como suas respectivas descrições.
+No card ampliado do pokémon, temos suas informações detalhadas (nome, imagem, altura, peso, tipo e movimentos aprendidos). Além desses, temos também a lista de habilidades possíveis que esse pokémon pode ter, bem como suas respectivas descrições.
 
 É possível navegar entre os pokémons pelas setas à direita e à esquerda do respectivo pokémon, bem como voltar para a "Home" através do botão "Voltar".
 
